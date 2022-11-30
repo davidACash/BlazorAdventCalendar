@@ -21,7 +21,7 @@
     protected override async Task OnParametersSetAsync()
     {
         DateTime today = DateTime.Now;
-        if (today.Day < Day || today.Month != 11)
+        if (today.Day < Day || today.Month != 12)
         {
             await JS.InvokeVoidAsync("alert", $"Be patient, kid! It's not December, {Day}. yet. ;)");
             NavigationManager.NavigateTo("/");
