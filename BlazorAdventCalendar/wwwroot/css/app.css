@@ -30,3 +30,16 @@ h1:focus {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 99vw;
+    height: 97vh;
+    align-items: center;
+    background-image: url(../images/christmasBackground.jpg);
+    background-size: cover;
+}
